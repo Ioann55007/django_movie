@@ -210,7 +210,7 @@ nav ul ul li a {
     display: block;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
 */
@@ -380,7 +380,6 @@ li > a:only-child:after {
 /* header */
 
 /*--/banner --*/
-
 
 .main-banner {
     background: url(../images/banner.jpg) no-repeat center;
@@ -907,7 +906,7 @@ ul.w3layouts-box-list li {
 .grid-img-right a {
     font-size: 0.9em;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 2;
     text-decoration: none;
     /*color: #fff;*/
     padding: 0;

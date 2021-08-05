@@ -6,7 +6,7 @@ from snowpenguin.django.recaptcha3.fields import ReCaptchaField
 
 class ReviewForm(forms.ModelForm):
     """Форма отзывов"""
-    captcha= ReCaptchaField()
+    captcha = ReCaptchaField()
 
     class Meta:
         model = Reviews
@@ -27,6 +27,3 @@ class RatingForm(forms.ModelForm):
     class Meta:
         model = Rating
         fields = ("star",)
-
-
-
